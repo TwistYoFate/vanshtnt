@@ -25,7 +25,7 @@ function App() {
   },[])
 
   return (
-    <div className="App container-fluid">
+    <div className="App">
       <Topbar showTopbar={showTopbar} />
       <Cover />
       <Gallery cars={cars} />

@@ -5,17 +5,20 @@ import logo from '../../assets/logo/logo-white.png'
 
 function Topbar(props) {
   return (
-     <Navbar id="topbar" bg="dark" style={{opacity:props.showTopbar?'100%':'0%'}}>
+     <Navbar id="topbar" style={{opacity:props.showTopbar?'100%':'0%'}} className="text-primary">
         <Container>
           <Navbar.Brand href="#home">
-            {/* <img
+            <img
               src={logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
-            /> */}
+            />
           </Navbar.Brand>
+          <Navbar.Text>
+            VANSH TOURS & TRAVELS
+          </Navbar.Text>
         </Container>
       </Navbar>
   )

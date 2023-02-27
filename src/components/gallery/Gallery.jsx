@@ -7,7 +7,7 @@ import './Gallery.scss'
 function Gallery(props) {
   return (
     <>
-    <SectionHeader title="Choose your drive" />
+    <SectionHeader title="Choose your drive" id="gallery-heading" />
     <div className="gallery">
         {
          props?.cars?.map((car,index)=>{
