@@ -1,0 +1,51 @@
+#cover{
+    width:100%;
+    aspect-ratio: 16/9;
+    background-image:url('/src/assets/cover-bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+
+   
+    .cover-left{
+        width:50%;
+        height:100vh;
+
+        #cover-logo{
+            width:30%;
+            height:auto;
+            padding-left:4%;
+        }
+
+        #cover-logo:hover{
+            display:none;
+        }
+    
+    }
+    .cover-right{
+        font-family: Gafata;
+        aspect-ratio: 8/9;
+        width:50%;
+        height:100vh;
+        // background:black;
+        // text-align: center;
+        padding-top: 4vw;
+        padding-right: 4vw;
+        &>h2{
+            float:right;
+            font-size: 3vw;
+            width:100%;
+            background:pink;
+            text-align:end;
+        }
+        &>p{
+            width:60%;
+            text-align: end;
+            float:right;
+        }
+        &>button{
+            float:right;
+        }
+    }
+}
+

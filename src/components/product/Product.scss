@@ -1,0 +1,15 @@
+.ccard{
+    min-width:200px;
+    max-width:400px;
+
+    &>#card-image{
+        aspect-ratio: 16/9;
+        // width:100%;
+        // height:auto;
+    }
+
+}
+
+.ccard:hover{
+    transform: scale(1.1);
+}

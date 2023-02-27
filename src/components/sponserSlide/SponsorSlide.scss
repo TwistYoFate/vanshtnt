@@ -1,0 +1,15 @@
+.custom-slide{
+    background:transparent;
+    color:white;
+    height:100%;
+    width:20vw;
+    // border-radius: 10vw;
+    // overflow:hidden;
+    // border-radius: 50%;
+    transition: scale 0.5s;
+
+    &>img{
+    border-radius: 50%;
+    transition: transform 1s ease-in;
+    }
+}

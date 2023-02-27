@@ -1,0 +1,13 @@
+@use '../../variables';
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    border:white solid 1px;
+    background:transparent;
+    color:white;
+}
+button:hover{
+    border: variables.$primary solid 1px;
+    background:white;
+    color:variables.$primary;
+}

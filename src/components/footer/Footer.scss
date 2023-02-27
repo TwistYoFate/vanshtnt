@@ -1,0 +1,42 @@
+#footer{
+    width:100%;
+    // aspect-ratio: 16/9;
+    background-size: footer;
+    display: flex;
+    justify-content: end;
+
+   
+    .footer-left{
+
+        font-family: Gafata;
+        width:50%;
+        padding-top: 2vw;
+        padding-left: 4vw;
+        &>h2{
+            float:left;
+            font-size: 3vw;
+        }
+        &>p{
+            width:60%;
+            text-align: start;
+            float:left;
+        }
+        &>button{
+            float:left;
+        }
+    
+    }
+    .footer-right{
+        width:50%;
+        display: flex;
+        justify-content: end;
+
+        #footer-logo{
+            aspect-ratio: 1/1;
+            width:15vw;
+            height:15vw;
+            padding-right:4%;
+        }
+    }
+}
+
