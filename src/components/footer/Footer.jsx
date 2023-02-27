@@ -23,7 +23,7 @@ function Footer() {
      
       </div>
       <div class="footer-right">
-      <img id="footer-logo" src={logo}>
+      <img id="footer-logo" src={logo} onClick={()=>{window.scrollTo(0,0)}} >
       </img>
       </div>
     </div>

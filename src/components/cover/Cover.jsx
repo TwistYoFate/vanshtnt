@@ -13,7 +13,7 @@ function Cover() {
   return (
     <div id="cover">
       <div class="cover-left">
-      <img id="cover-logo" src={logo}>
+      <img id="cover-logo" src={logo} onClick={()=>{document.querySelector("#footer").scrollIntoView()}}>
       </img>
       </div>
       <div class="cover-right">
