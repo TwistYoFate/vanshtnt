@@ -7,7 +7,7 @@ function Footer() {
     <div id="footer" className="bg-primary">
       <div class="footer-left">
       <h2 class="text-black">
-          VANSH TOURS AND TRAVELS
+          VANSH TOURS & TRAVELS
         </h2>
         <p class="text-white">
         E-154 <br />

@@ -5,5 +5,12 @@
     display: flex;
     justify-content: center;
     gap:2vw;
-   
+}
+
+@media screen and (max-width:480px){
+    .gallery{
+        width:80%;
+        margin: auto;
+        gap:4vw;
+    }
 }

@@ -28,7 +28,7 @@ function Cover() {
           <br/>
         </h2>
         <p class="text-white">
-        We are a emerging Ghaziabad  based Tours and Travels company which provide the best in market services . Vehicles on rent starting just from 9rs/km.                  
+        We are an emerging Ghaziabad based Tours and Travels company which provide the best in market services<br /><span className="text-primary">Taxi Hire starting just from  &#8377;9/km</span>                  
         </p>
         <p>
         <Button clickHandler={(e)=>{scrollToProducts(e)}}/>

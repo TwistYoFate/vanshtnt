@@ -17,7 +17,10 @@ function Topbar(props) {
               style={{opacity:props.showTopbar?'100%':'0%'}}
             />
           </Navbar.Brand>
-          <Navbar.Text className={props.showTopbar?"":"text-white bg-transparent"}>
+          <Navbar.Text 
+          className={props.showTopbar?"":"text-white bg-transparent"}
+          style={navigator.userAgentData.mobile?{opacity:props.showTopbar?'100%':'0%'}:{}}
+          >
             VANSH TOURS & TRAVELS
           </Navbar.Text>
         </Container>

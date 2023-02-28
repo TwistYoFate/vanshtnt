@@ -1,3 +1,0 @@
-<div className="custom-slide" >
-        <Image className="slide-image" src={props.image} alt={props.alt} height={'auto'} width={"100%"}/>
-   </div>

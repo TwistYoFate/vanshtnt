@@ -12,13 +12,13 @@ export const cars = [
     {
       name:'Maruti Suzuki Ertiga',
       price:'17',
-      tada:'400',
+      tada:'300',
       image:ertiga
     },
     {
-      name:'Maruti Swift Dzire',
+      name:'Maruti Suzuki Dzire',
       price:'17',
-      tada:'400',
+      tada:'300',
       image:dzire
     }
 ]

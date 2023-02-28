@@ -15,11 +15,11 @@ function Product(props) {
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>
-            Rs {props.price}/KM
+          &#8377; {props.price}/km
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">TA/DA : {props.tada}</small>
+          <small className="text-muted">TA/DA : &#8377; {props.tada}</small>
         </Card.Footer>
       </Card>
   )
