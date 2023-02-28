@@ -13,3 +13,17 @@
         padding: 5vw 0;
         text-align: center;
 }
+
+@media screen and (max-width:480px) {
+    .custom-carousel{
+      justify-content: center;
+      column-gap: none;
+      gap:5vh;
+      flex-wrap:wrap;
+    }
+
+    .sponsor-name{
+        padding: 5vh 0;
+    }
+
+}
