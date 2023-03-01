@@ -19,7 +19,7 @@ function Cover() {
       <div class="cover-right">
         <h2 class="text-primary">
           <Typewriter 
-            words={ ['VANSH TOURS AND TRAVELS','BRINGING JOY TO EVERY JOURNEY','BEST CARS IN BEST PRICES']}
+            words={ ['VANSH TOUR AND TRAVELS','BRINGING JOY TO EVERY JOURNEY','BEST CARS IN BEST PRICES']}
             typeSpeed={200}
             loop={0}
             cursor={true}
@@ -28,7 +28,7 @@ function Cover() {
           <br/>
         </h2>
         <p class="text-white">
-        We are an emerging Ghaziabad based Tours and Travels company which provide the best in market services<br /><span className="text-primary">Taxi Hire starting just from  &#8377;9/km</span>                  
+        We are an emerging Ghaziabad based Tour and Travels company which provide the best in market services<br /><span className="text-primary">Taxi Hire starting just from  &#8377;9/km</span>                  
         </p>
         <p>
         <Button clickHandler={(e)=>{scrollToProducts(e)}}/>

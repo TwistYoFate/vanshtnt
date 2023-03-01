@@ -21,7 +21,7 @@ function Topbar(props) {
           className={props.showTopbar?"":"text-white bg-transparent"}
           style={navigator.userAgentData.mobile?{opacity:props.showTopbar?'100%':'0%'}:{}}
           >
-            VANSH TOURS & TRAVELS
+            VANSH TOUR & TRAVELS
           </Navbar.Text>
         </Container>
       </Navbar>
